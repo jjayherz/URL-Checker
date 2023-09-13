@@ -1,0 +1,57 @@
+body {
+  background-color: rgb(50,50,50);
+  color: white;
+  font-family: Arial;
+}
+
+.URL-input {
+  margin-bottom: 50px;
+  width: 300px;
+  border-radius: 10px;
+  height: 30px;
+  font-size: 14px;
+  padding: 5px;
+  padding-left: 15px;
+  outline: 2px;
+  border:none;
+  margin-right: 5px;
+}
+
+.URL-input:focus {
+  transition: .60s;
+  width: 500px;
+}
+
+.enter-button {
+  padding: 13px;
+  border-radius: 10px;
+  border: none;
+  background-color: green;
+  color: white;
+  cursor: pointer;
+}
+
+.enter-button:hover {
+  transition: .30s;
+  background-color: rgb(15, 172, 15);
+}
+.enter-button:active {
+  transition: .5s;
+  background-color: rgb(7, 228, 7);
+}
+
+.frame {
+  border: 1px white solid;
+  width: 500px;
+  height: 300px;
+  display: block;
+}
+
+.Settings {
+  display: inline-block;
+  position:fixed; right: 0; top: 3;
+  padding-right: 80px;
+}
+.Settings:hover {
+  border: 1px solid;
+}
