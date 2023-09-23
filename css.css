@@ -21,6 +21,10 @@ body {
   transition: .60s;
   width: 500px;
 }
+.URL-input:not(:focus) {
+  transition: .60s;
+  width: 300px;
+}
 
 .enter-button {
   padding: 13px;
