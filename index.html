@@ -33,6 +33,7 @@
         <p onclick="frameSize3()" style="cursor: pointer;"> 640 by 320 pixels</p>
         <p onclick="frameSize4()" style="cursor: pointer;"> 820 by 410 pixels</p>
         <p style="cursor: pointer;" onclick="frameOriginal();">Original</p>
+        <p style="cursor: pointer; onclick="resizable();">Resizable</p>
       </details>
     </details>
 </div>
@@ -88,6 +89,9 @@
       frame = document.querySelector('.frame');
       frame.style.width = '500px';
       frame.style.height = '300px';
+    }
+    function resizable() {
+      frame.style.resize = 'auto';
     }
   </script>
 </body>
