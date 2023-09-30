@@ -42,10 +42,10 @@
   </iframe>
 
   <script>
-    const value = document.querySelector('input').value;
+    const input = document.querySelector('input');
     let frame = document.querySelector('iframe');
     function web() {
-      frame.src = value;
+      frame.src = input.value;
     }
 
     function bcWhite() {
