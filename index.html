@@ -41,10 +41,10 @@
   </iframe>
 
   <script>
-    const input = document.querySelector('input');
+    const value = document.querySelector('input').value;
     let frame = document.querySelector('iframe');
     function web() {
-      frame.src = input.value;
+      frame.src = `https://${value}`;
     }
 
     function bcWhite() {
